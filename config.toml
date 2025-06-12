@@ -1,0 +1,73 @@
+base_url = "https://immersum.me"
+theme = "project-portfolio"
+title = "immersum"
+description = "A showcase of personal projects"
+default_language = "en"
+
+taxonomies = [
+    { name = "projects", paginate_by = 5, feed = true },
+    { name = "skills", paginate_by = 5, feed = true },
+    { name = "blog-tags", paginated_by = 5, feed = true },
+]
+
+compile_sass = true
+minify_html = true
+build_search_index = true
+
+[search]
+index_format = "elasticlunr_json"
+
+[translations]
+comment_mastodon_link_text = "Respond to this post on Mastodon."
+comment_mastodon_link_title = "Since Mastodon is decentralized, you can use your existing account hosted by another Mastodon server or any compatible platform."
+
+[markdown]
+highlight_code = true
+highlight_theme = "css"
+
+render_emoji = true
+
+[languages.hu]
+title = "Projektportfólió"
+description = "A saját projektek bemutatása"
+
+taxonomies = [
+    { name = "projects", paginate_by = 5, feed = true },
+    { name = "skills", paginate_by = 5, feed = true },
+    { name = "blog-tags", paginated_by = 5, feed = true },
+]
+
+build_search_index = true
+
+[languages.hu.translations]
+comment_mastodon_link_text = "Szólj hozzá a bejegyzéshez a Mastodonon!"
+comment_mastodon_link_title = "A Mastodon egy decentralizált közösségi platform, így akár egy már meglévő felhasználói fiókot is használhatsz, ha az egy másik Mastodon-szerveren vagy egy kompatibilis platformon lett létrehozva."
+
+[extra]
+enable_theme_switching = false
+
+daisyui_theme_light = "immersum-light"
+daisyui_theme_dark = "immersum-dark"
+
+themes = [
+    { identifier = "immersum-light", name = "Light" },
+    { identifier = "immersum-dark", name = "Dark" },
+]
+
+[extra.navbar]
+links = [
+    { url = "projects", i18n_key = "projects" },
+    { url = "skills", i18n_key = "skills" },
+    { url = "blog", i18n_key = "blog" },
+]
+
+[extra.footer]
+notice = "immersum.me"
+
+[extra.social]
+github = "https://github.com/immersum"
+telegram = "https://t.me/immersum"
+email = "immersum@protonmail.com"
+
+[extra.favicon]
+svg = "favicon.svg"

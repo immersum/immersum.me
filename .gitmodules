@@ -1,0 +1,9 @@
+
+[submodule "themes/project-portfolio"]
+	path = themes/project-portfolio
+	url = https://codeberg.org/winterstein/zola-theme-project-portfolio.git
+	branch = main
+[submodule "cv/templates"]
+	path = cv/templates
+	url = https://codeberg.org/winterstein/cv-templates.git
+	branch = main

@@ -1,0 +1,25 @@
+{% extends "project-portfolio/templates/page.html" %}
+
+{%- block extra_headers -%}
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({
+        startOnLoad: true,
+        theme: 'base',
+        themeVariables: {
+            background: '#001b2d', // oklab(20% -12% -12%)
+            primaryColor: '#00273a', // oklab(25% -12% -12%)
+            primaryTextColor: '#6e8588', // oklab(60% -6% -3%)
+            primaryBorderColor: '#6e8588', // oklab(60% -6% -3%)
+            secondaryColor: '#00273a', // oklab(25% -12% -12%)
+            secondaryTextColor: '#6e8588', // oklab(60% -6% -3%) 
+            secondaryBorderColor: '#6e8588', // oklab(60% -6% -3%)
+            tertiaryColor: '#000f20', // oklab(15% -12% -12%)
+            tertiaryTextColor: '#a6b1ae', // oklab(75% -3% 0)
+            tertiaryBorderColor: '#a6b1ae', // oklab(75% -3% 0)
+            lineColor: '#a6b1ae', // oklab(75% -3% 0)
+            textColor: '#a6b1ae', // oklab(75% -3% 0)
+        }
+    });
+</script>
+{%- endblock -%}
