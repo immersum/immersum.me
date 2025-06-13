@@ -1,0 +1,20 @@
+{
+  "name": "immersum.me",
+  "version": "1.0.0",
+  "description": "A showcase of personal projects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immersum/immersum.me.git"
+  },
+  "license": "ISC",
+  "author": "immersum <immersum@protonmail.com>",
+  "scripts": {
+    "build": "tailwindcss -i src/css/main.css -o static/css/main.css --minify",
+    "watch": "tailwindcss -i src/css/main.css -o static/css/main.css --minify --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "daisyui": "^5.0.0",
+    "tailwindcss": "^4.1.0"
+  }
+}

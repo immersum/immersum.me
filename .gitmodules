@@ -1,4 +1,3 @@
-
 [submodule "themes/project-portfolio"]
 	path = themes/project-portfolio
 	url = https://codeberg.org/winterstein/zola-theme-project-portfolio.git

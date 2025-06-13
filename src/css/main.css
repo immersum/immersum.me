@@ -1,10 +1,10 @@
-@import "/usr/local/lib/node_modules/tailwindcss";
+@import "tailwindcss";
 
-@plugin "/usr/local/lib/node_modules/daisyui" {
+@plugin "daisyui" {
     themes: all;
 }
 
-@plugin "/usr/local/lib/node_modules/daisyui/theme" {
+@plugin "daisyui/theme" {
     name: "immersum-light";
     color-scheme: "light";
     --color-base-100: oklab(92% 0 10%);
@@ -37,7 +37,7 @@
     --noise: 0;
 }
 
-@plugin "/usr/local/lib/node_modules/daisyui/theme" {
+@plugin "daisyui/theme" {
     name: "immersum-dark";
     color-scheme: "dark";
     --color-base-100: oklab(20% -12% -12%);
