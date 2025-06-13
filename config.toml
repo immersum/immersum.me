@@ -19,7 +19,10 @@ index_format = "elasticlunr_json"
 
 [translations]
 comment_mastodon_link_text = "Respond to this post on Mastodon."
-comment_mastodon_link_title = "Since Mastodon is decentralized, you can use your existing account hosted by another Mastodon server or any compatible platform."
+comment_mastodon_link_title = """
+Since Mastodon is decentralized, you can use your existing account hosted by another Mastodon
+server or any compatible platform.
+"""
 
 [markdown]
 highlight_code = true
@@ -41,7 +44,10 @@ build_search_index = true
 
 [languages.hu.translations]
 comment_mastodon_link_text = "Szólj hozzá a bejegyzéshez a Mastodonon!"
-comment_mastodon_link_title = "A Mastodon egy decentralizált közösségi platform, így akár egy már meglévő felhasználói fiókot is használhatsz, ha az egy másik Mastodon-szerveren vagy egy kompatibilis platformon lett létrehozva."
+comment_mastodon_link_title = """
+A Mastodon egy decentralizált közösségi platform, így akár egy már meglévő felhasználói fiókot is
+használhatsz, ha az egy másik Mastodon-szerveren vagy egy kompatibilis platformon lett létrehozva.
+"""
 
 [extra]
 enable_theme_switching = false

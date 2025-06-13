@@ -279,8 +279,8 @@ reprezentál.
 
 #### 3.18. Utasításblokkok, feltételes megszakítások, ciklusmagok stb.
 
-Létezhetnek olyan csomópontok a szintaxisfában, amelyekre bár lehet attribútumot alkalmaznunk, mivel
-ezek utasításblokkot tartalmazó kifejezések (mint a *then_branch* blokk az `if` kifejezések
+Létezhetnek olyan csomópontok a szintaxisfában, amelyekre bár lehet attribútumot alkalmaznunk,
+mivel ezek utasításblokkot tartalmazó kifejezések (mint a *then_branch* blokk az `if` kifejezések
 esetében), a közvetlen leszármazottai között nem találunk kifejezést.
 
 * [ExprBlock](expr-block/), [ExprConst](expr-const/), [ExprUnsafe](expr-unsafe/),
