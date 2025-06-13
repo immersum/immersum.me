@@ -15,7 +15,7 @@ pub struct TraitItemConst {
     pub ty: Type,
     pub default: Option<(Eq, Expr)>,
     pub semi_token: Semi,
-} 
+}
 ```
 
 ## Iterator<Item = &Expr>

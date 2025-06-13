@@ -153,7 +153,7 @@ egy-egy összetettebb csomópontja.
 
 #### 2.2. Enum (felsorolási típusok) definíciója
 
-* [ItemEnum](item-enum/) - Ez _n_ db variánst tartalmaz. 
+* [ItemEnum](item-enum/) - Ez _n_ db variánst tartalmaz.
 * [Variant](variant/) - Minden egyes variáns _0_.._1_ db konstans kifejezést tartalmaz az
   opcionális `=` token után (a variáns diszkriminánsa, vagyis a megkülönböztető értéke, amely
   explicit módon is megadható).
@@ -290,7 +290,7 @@ esetében), a közvetlen leszármazottai között nem találunk kifejezést.
 #### 3.19. Makróhívások
 
 * [ExprMacro](expr-macro/) - Ez részfákat tartalmaz, amelyek a hívásának bemeneteként szolgálnak,
-  és a részfák tetszőleges csomópontokból állhatnak. 
+  és a részfák tetszőleges csomópontokból állhatnak.
 
 Mivel azonban ez a blogbejegyzés egy olyan esetet ír le, ahol a kinyert kifejezések közül eleve
 csak a makróhívásokat vesszük figyelembe a feldolgozás során, a makróhívásokban található

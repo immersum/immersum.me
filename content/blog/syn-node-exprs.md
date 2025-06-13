@@ -10,7 +10,7 @@ blog-tags = ["Rust"]
 [extra]
 comments.host = "noc.social"
 comments.username = "immersum"
-comments.id = 114669335434162042 
+comments.id = 114669335434162042
 +++
 
 ### What I wanted to achieve
@@ -73,9 +73,9 @@ for expr in exprs {
 ### Options can be turned into iterators
 
 As we look through the data structures of the node types, we can see the various field types that
-contain expressions:  
+contain expressions:
 
-* Some field types are simple expressions, others are the same with indirection: `Box<Expr>` 
+* Some field types are simple expressions, others are the same with indirection: `Box<Expr>`
 * Some field types have a cardinality of _1_ element, others contain _0_.._1_ elements wrapped in
   an option: `Option<Expr>`
 * Options may also be combined with indirection: `Option<Box<Expr>>`
@@ -145,7 +145,7 @@ nodes.
 
 #### 2.2. Enum definitions
 
-* [ItemEnum](item-enum/) - Contains _n_ variants. 
+* [ItemEnum](item-enum/) - Contains _n_ variants.
 * [Variant](variant/) - Each variant contains _0_.._1_ constant expressions after an optional `=`
   token (the *discriminant* of the variant, which may have an explicit value set).
 

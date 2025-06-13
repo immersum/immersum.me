@@ -2,7 +2,7 @@
 title = "berregi"
 description = """
 Egy kapucsengő vezeték nélkülivé alakítása két darab Raspberry Pi Pico mikrovezérlő segítségével,
-amelyek egy meglévő, vezeték nélküli hálózaton keresztül TCP-kapcsolatot létesítenek egymással. 
+amelyek egy meglévő, vezeték nélküli hálózaton keresztül TCP-kapcsolatot létesítenek egymással.
 """
 date = 2024-05-06
 
