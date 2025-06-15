@@ -1,1 +1,0 @@
-item_static.md

@@ -1,0 +1,20 @@
+{
+  "theme": "base",
+  "themeVariables": {
+    "background": "#001b2d",
+    "primaryColor": "#00273a",
+    "primaryTextColor": "#6e8588",
+    "primaryBorderColor": "#6e8588",
+    "secondaryColor": "#00273a",
+    "secondaryTextColor": "#6e8588",
+    "secondaryBorderColor": "#6e8588",
+    "tertiaryColor": "#000f20",
+    "tertiaryTextColor": "#a6b1ae",
+    "tertiaryBorderColor": "#a6b1ae",
+    "lineColor": "#a6b1ae",
+    "textColor": "#a6b1ae"
+  },
+  "flowchart": {
+    "useMaxWidth": false
+  }
+}

@@ -12,6 +12,8 @@ taxonomies = [
 
 compile_sass = true
 minify_html = true
+ignored_content = ["**/*.template.md"]
+
 build_search_index = true
 
 [search]

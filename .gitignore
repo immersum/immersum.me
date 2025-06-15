@@ -1,5 +1,5 @@
 /.netlify
+/mermaid.css
 /node_modules
 /public
 /static/css/main.css
-/static/syntax-*.css

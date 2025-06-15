@@ -1,6 +1,4 @@
 +++
-title = """
-One-liners for getting iterators …
-"""
+title = "One-liners for getting iterators … "
 render = false
 +++

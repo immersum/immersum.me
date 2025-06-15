@@ -1,0 +1,25 @@
+@reference "tailwindcss";
+
+@layer base {
+    code {
+        @apply font-mono;
+    }
+    
+}
+
+@media (prefers-color-scheme: light) {
+    svg {
+        rect {
+            filter: sepia();
+        }
+
+        filter: hue-rotate(180deg) invert();
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    code {
+        --color-accent: oklch(60% 0.118 184.704);
+        @apply text-(--color-accent);
+    }
+}

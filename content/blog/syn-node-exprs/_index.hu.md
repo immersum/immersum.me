@@ -1,7 +1,4 @@
 +++
-title = """
-Egysorosok, amelyek segítségével …
-kinyerhetjük a kifejezéseket
-"""
+title = "Egysorosok, amelyek segítségével …  kinyerhetjük a kifejezéseket"
 render = false
 +++
