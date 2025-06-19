@@ -10,12 +10,12 @@ blog-tags = ["Rust"]
 [extra]
 comments.host = "noc.social"
 comments.username = "immersum"
-comments.id = 114669335434162042
+comments.id = "114669335434162042"
 +++
 
 ### What I wanted to achieve
 
-In a recent project, [mplusfonts], which is an adaptation of a TrueType font
+In a recent project, [mplusfonts](/projects/mplusfonts/), which is an adaptation of a TrueType font
 of the same name for use with a `no_std` graphics library, one of the things I wanted was to enable
 users of the *#[strings::emit]* helper attribute to apply the attribute to the statement where the
 result of a given expression is assigned to a variable; otherwise, users would have had to apply it

@@ -10,7 +10,7 @@ blog-tags = ["Rust"]
 [extra]
 comments.host = "noc.social"
 comments.username = "immersum"
-comments.id = 114669335434162042
+comments.id = "114669335434162042"
 +++
 
 ### Az elképzelésemről röviden

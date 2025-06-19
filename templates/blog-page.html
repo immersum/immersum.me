@@ -1,8 +1,11 @@
 {% extends "project-portfolio/templates/page.html" %}
 
 {%- block extra_headers -%}
-<meta name="fediverse:creator" content="@immersum@mastodon.social">
+<meta name="fediverse:creator" content="@immersum@noc.social">
+{{ content::include_script(file="js/datetime.js", additional_tags='lang="' ~ lang ~ '"') }}
 {%- endblock -%}
+
+{{ content::include_stylesheet(file="css/main.css") }}
 
 {% block page_footer %}
 {#- Show comments and link to Mastodon post, if the comments variables are set for the page. -#}

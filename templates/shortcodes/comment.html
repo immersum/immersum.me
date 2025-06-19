@@ -1,11 +1,11 @@
 {% import "macros/content.html" as content -%}
-<div class="comment flex mt-2 mb-4 {% if level > 1 %}ml-8{%endif %}">
+<div class="comment flex mt-2 mb-4 {% if level > 1 %}ml-8{% endif %}">
     <a href="{{ user_url }}" target="_blank" rel="external nofollow"><img src="{{ avatar }}" class="h-12 w-12 object-cover rounded-full mr-2"></a>
     <div>
         <div>
             <a href="{{ user_url }}" target="_blank" rel="external nofollow" class="mr-12 no-underline hover:underline">{{ fullname }}</a>
         </div>
-        <a href="{{ comment_url }}" target="_blank" rel="external nofollow" class="text-sm no-underline hover:underline">{{ datetime }}</a>
+        <a href="{{ comment_url }}" target="_blank" rel="external nofollow" class="text-sm no-underline hover:underline"><script type="text/javascript">commentDateTime("{{ datetime }}")</script></a>
         <div class="mt-2">
             {{ body | safe }}
         </div>

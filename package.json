@@ -8,7 +8,10 @@
   },
   "license": "ISC",
   "author": "immersum <immersum@protonmail.com>",
+  "type": "module",
   "scripts": {
+    "clean:comments": "node retrieve-comments.js -i 'content/blog/*.md' -o 'content/blog-comments' --create-empty",
+    "build:comments": "node retrieve-comments.js -i 'content/blog/*.md' -o 'content/blog-comments'",
     "clean:mermaid:svg": "glob 'content/**/*.template.md' | { while read source; do target=${source%.template.md}; rm -f ${target}.md ${target}-?.svg; done }",
     "build:mermaid:svg": "glob 'content/**/*.template.md' | { while read source; do target=${source%.template.md}; mmdc -b transparent -c mermaid.config.json -C mermaid.css -i ${source} -o ${target}.md; done }",
     "clean:mermaid:css": "rm -f mermaid.css",
@@ -18,14 +21,17 @@
     "clean:css": "rm -f static/css/main.css",
     "build:css": "tailwindcss -i src/css/main.css -o static/css/main.css --minify",
     "watch:css": "tailwindcss -i src/css/main.css -o static/css/main.css --minify --watch",
-    "clean": "npm run clean:css && npm run clean:mermaid",
-    "build": "npm run build:css && npm run build:mermaid"
+    "clean": "npm run clean:css && npm run clean:mermaid && npm run clean:comments",
+    "build": "npm run build:css && npm run build:mermaid && npm run build:comments"
   },
   "devDependencies": {
     "@mermaid-js/mermaid-cli": "^11.4.3",
     "@tailwindcss/cli": "^4.1.0",
+    "commander": "^14.0.0",
     "daisyui": "^5.0.0",
     "glob": "^11.0.3",
+    "masto": "^7.1.0",
+    "smol-toml": "^1.3.4",
     "tailwindcss": "^4.1.0"
   }
 }

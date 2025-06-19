@@ -8,6 +8,6 @@ date_start = 2025-03-20
 top_project = true
 
 [taxonomies]
-projects = ["Software Development (Library Crate)"]
+projects = ["Software Development"]
 skills = ["Abstract Syntax Tree", "Embedded Graphics", "Procedural Macros", "Rust", "Threads"]
 +++
